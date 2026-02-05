@@ -6,7 +6,7 @@ db_connection_str = 'mysql+mysqlconnector://root:1234@127.0.0.1/SupplyChain'
 db_connection = create_engine(db_connection_str)
 
 # 2. Read the CSV file
-csv_file_path = r"C:\Users\RAMEEZ\Desktop\SqlDataImport\DataCoSupplyChainDataset.csv"
+csv_file_path = r"C:\Users\RAMEEZ\Documents\GitHub\supply-chain-optimization-project\DataCoSupplyChainDataset.csv"
 df = pd.read_csv(csv_file_path, encoding='latin-1')
 
 # 3. Clean column names
