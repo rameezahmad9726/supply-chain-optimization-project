@@ -18,7 +18,7 @@ I investigated why highpriority shipments were consistently late in the Central 
      First Class: 95.5% Late Rate (Critical Failure)
  Recommendation: Immediate suspension of "First Class" upgrades for this region, as the premium service is failing 95% of the time.
 
-![Shipping Analysis Screenshot](<img width="494" height="133" alt="image" src="https://github.com/user-attachments/assets/fe49b5c5-2c1e-4d2a-952f-fc0853567ac1" />
+(<img width="494" height="133" alt="image" src="https://github.com/user-attachments/assets/fe49b5c5-2c1e-4d2a-952f-fc0853567ac1" />
 )
 (Table showing the 95% failure rate for First Class shipping)
 
@@ -33,7 +33,7 @@ Moving from diagnosing the past to predicting the future, I built a timeseries f
  The Challenge: The dataset contained a massive drop in sales volume in late 2017 (a "regime change" in the data).
  The Solution: The AI model correctly identified this downward trend and adjusted its predictions for the next 6 months, avoiding the common mistake of overpredicting based on historical highs.
 
-![Forecast Graph Screenshot](<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/496b60ec-98d2-4a86-b896-c34f94b74b95" />
+(<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/496b60ec-98d2-4a86-b896-c34f94b74b95" />
 )
 (The Red line shows the AI adapting to the sudden drop in sales history)
 
